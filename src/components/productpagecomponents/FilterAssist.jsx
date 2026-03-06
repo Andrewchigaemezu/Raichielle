@@ -1,4 +1,4 @@
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import Header4 from "../../utilities/Header4";
 import Paragraph from "../../utilities/Paragraph";
 import style from "./FilterAssist.module.css";
