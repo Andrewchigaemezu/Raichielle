@@ -1,5 +1,5 @@
 import style from "./Featuredbags.module.css";
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import black_bag from "../../assets/img/black_bag.png";
 import brown_bag from "../../assets/img/brown_bag.png";
 import pink_bag from "../../assets/img/pink_bag.png";
