@@ -1,5 +1,5 @@
 import style from "./OtherProducts.module.css";
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import otherp_blackbag from "../../assets/img/otherp_blackbag.png";
 import otherp_brownbag from "../../assets/img/otherp_brownbag.png";
 import otherp_capjacket from "../../assets/img/otherp_capjacket.png";
