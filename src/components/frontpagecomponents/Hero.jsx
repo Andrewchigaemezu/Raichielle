@@ -1,6 +1,6 @@
 import style from "./Hero.module.css";
 
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import Paragraph from "../../utilities/Paragraph";
 import { Link } from "react-router-dom";
 
