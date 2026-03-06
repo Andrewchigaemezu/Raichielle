@@ -1,0 +1,6 @@
+.cart {
+  height: auto;
+  max-width: 150rem;
+  margin: 0 auto;
+  background-color: var(--primary_color_dark);
+}

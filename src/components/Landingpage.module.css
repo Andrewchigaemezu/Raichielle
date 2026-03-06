@@ -1,0 +1,17 @@
+.landingpage {
+  height: auto;
+  max-width: 150rem;
+  margin: 0 auto;
+  background-color: var(--primary_color_dark);
+}
+
+.landingpage_featuredbag_cont {
+  padding: 12.5rem 0 19.5rem 0;
+  background-color: var(--primary_color);
+}
+
+.landingpage_services_cont {
+  /* height: 232.2rem; */
+  padding: 10.2rem 0 16.3rem 0;
+  background-color: var(--primary_color);
+}

@@ -1,0 +1,31 @@
+.dashboardcenter {
+  /* background-color: blue; */
+  color: var(--primary_color);
+  height: 48rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 1.6rem;
+  overflow-y: scroll;
+}
+.dashboardcenter::-webkit-scrollbar {
+  display: none;
+}
+
+.dashboard_product {
+  height: 21.4rem;
+  width: 90%;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.dashboard_product p {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 1rem;
+}

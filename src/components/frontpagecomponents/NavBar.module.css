@@ -1,0 +1,98 @@
+.navbar {
+  background-color: var(--primary_color);
+  /* background-color: rgba(0, 0, 0, 0.219); */
+  width: 100%;
+  height: 10.2rem;
+  color: var(--secondary_color);
+  padding-top: 3rem;
+}
+.navbar_cont {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.navbar_cont h3 {
+  font-style: italic;
+}
+.navbar_cont a:link,
+.navbar_cont a:visited {
+  color: var(--secondary_color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .navbar_cont::after {
+  content: "I am here now";
+  font-size: 5rem;
+} */
+
+.navbar_icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  position: relative;
+}
+.navbar_icons img {
+  cursor: pointer;
+}
+
+.cart_item_total {
+  position: absolute;
+  /* padding: 2rem; */
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: var(--primary_color_dark);
+  color: var(--secondary_color);
+  /* text-align: center; */
+  display: grid;
+  /* justify-content: center; */
+  /* align-content: center; */
+  justify-items: center;
+  align-items: center;
+  font-size: 1.8rem;
+  left: 0;
+  top: 0;
+  transform: translate(8rem, -2.8rem);
+  cursor: pointer;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+}
+@media (max-width: 50em) {
+}
+@media (max-width: 44em) {
+  .navbar_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .navbar_icons {
+    display: none;
+  }
+  .navbar_cont p {
+    display: none;
+  }
+  .mobile_menu {
+    display: inline-block;
+    justify-self: right;
+    width: 4rem;
+  }
+}
+@media (max-width: 37.5em) {
+}
+@media (max-width: 23.5em) {
+}

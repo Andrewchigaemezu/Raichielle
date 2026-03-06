@@ -1,0 +1,57 @@
+.products {
+  width: 90%;
+  background-color: var(--primary_color_light);
+  color: var(--secondary_color_dark);
+}
+.product_img {
+  height: 25.7rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url(../../../public/img/shop_img/black_hoodie.png); */
+}
+
+.product_text {
+  width: 100%;
+  padding: 1.5rem 1rem;
+}
+.product_text_cont {
+  display: grid;
+}
+.product_text_cont p:first-child {
+  font-weight: 700;
+}
+.product_text_cont p:last-child {
+  justify-self: right;
+  padding-right: 2rem;
+}
+
+.product_btn_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.6rem;
+  padding-left: 2rem;
+}
+
+.cart_btn {
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  color: var(--secondary_color_dark);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.purchase_btn:link,
+.purchase_btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6rem 1.3rem;
+  color: var(--primary_color);
+  background-color: var(--secondary_color_dark);
+  /* align-self: center; */
+  font-size: 1.8rem;
+}

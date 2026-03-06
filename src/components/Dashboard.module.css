@@ -1,0 +1,27 @@
+.dashboard {
+  height: auto;
+  max-width: 150rem;
+  margin: 0 auto;
+  background-color: var(--primary_color);
+  display: grid;
+  grid-template-columns: 0.6fr 1.6fr 0.7fr;
+}
+
+/* .dashboardtop {
+  background-color: red;
+  height: 10rem;
+  grid-column: span 4;
+} */
+/* .dashboardleft {
+  background-color: black;
+  height: 50rem;
+} */
+/* .dashboardcenter {
+  background-color: blue;
+  height: 50rem;
+  grid-column: span 2;
+} */
+/* .dashboardright {
+  background-color: pink;
+  height: 50rem;
+} */

@@ -1,0 +1,42 @@
+.featuredbags {
+  margin-top: 26.8rem;
+  /* background-color: yellow; */
+  color: var(--secondary_color_dark);
+}
+
+.featuredbags h4 {
+  text-align: center;
+}
+
+.featuredbags_cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12.8rem;
+  justify-items: center;
+  margin-top: 6.8rem;
+  overflow-x: hidden;
+}
+
+.featuredbags_btn:link,
+.featuredbags_btn:visited {
+  text-decoration: none;
+  width: 35rem;
+}
+.featuredbags_cont img {
+  width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+}
+@media (max-width: 50em) {
+}
+@media (max-width: 44em) {
+}
+@media (max-width: 37.5em) {
+}
+@media (max-width: 23.5em) {
+}

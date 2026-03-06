@@ -1,0 +1,17 @@
+.productdetail {
+  height: auto;
+  max-width: 150rem;
+  margin: 0 auto;
+  /* margin-top: 5rem; */
+  padding-top: 6.8rem;
+  background-color: var(--primary_color_dark);
+}
+
+.loading_spinner_cont {
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  justify-items: center;
+  margin-bottom: 5rem;
+}

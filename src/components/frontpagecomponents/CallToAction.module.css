@@ -1,0 +1,27 @@
+.calltoaction {
+  width: 100%;
+  height: 80rem;
+
+  background-image: url("/img/cta_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.calltoaction_container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.cta_btn:link,
+.cta_btn:visited {
+  display: inline-block;
+  padding: 2rem 5rem;
+  color: var(--secondary_color_dark);
+  background-color: var(--primary_color);
+  text-decoration: none;
+  margin-top: 20rem;
+}

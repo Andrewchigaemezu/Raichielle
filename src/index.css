@@ -1,0 +1,47 @@
+:root {
+  --primary_color: #ffffff;
+  --primary_color_light: #f7f6f6;
+  --primary_color_dark: #d6d5d5;
+  --secondary_color: #333333;
+  --secondary_color_light: #676565;
+  --secondary_color_dark: #242424;
+  --tertiary_color: #fedeff;
+  --tertiary_color_light: #fee8ff;
+  --tertiary_color_dark: #e5c8e5;
+  --offwhite_color: #f8fcff;
+  --dark_color: #0a3450;
+  --dark_color_75: rgba(10, 52, 80, 0.75);
+  --dark_color_50: rgba(10, 52, 80, 0.5);
+  --dark_color_25: rgba(10, 52, 80, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Georgia";
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 53%;
+  }
+}
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 23.5em) {
+  html {
+    font-size: 45.25%;
+  }
+}

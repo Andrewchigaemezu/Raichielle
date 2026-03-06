@@ -1,0 +1,43 @@
+.productdisplay {
+  width: 100%;
+  height: 50.9rem;
+  background-image: url("/img/shop_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--primary_color);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+  .productdisplay {
+    font-size: 15rem;
+    padding-top: 8rem;
+  }
+}
+@media (max-width: 50em) {
+}
+@media (max-width: 44em) {
+  .productdisplay {
+    font-size: 10rem;
+    padding-top: 18rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .productdisplay {
+    font-size: 8rem;
+    padding-top: 22rem;
+  }
+}
+@media (max-width: 23.5em) {
+  .productdisplay {
+    font-size: 6rem;
+    padding-top: 26rem;
+  }
+}

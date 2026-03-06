@@ -1,0 +1,30 @@
+/* .dashboardright {
+  background-color: pink;
+  height: 50rem;
+  padding-right: 4rem;
+} */
+
+.dashboardright_order_cont {
+  width: 90%;
+  padding-top: 1.7rem;
+  background-color: var(--primary_color_light);
+  margin: 0 auto;
+}
+.dashboardright_order_cont h5 {
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.dashboardright_order_cont ul {
+  padding: 0 1.2rem 3.2rem 1.2rem;
+  list-style: none;
+}
+.dashboardright_order_cont ul li {
+  padding: 1rem 2.6rem;
+  margin-bottom: 1rem;
+}
+.dashboardright_order_cont ul li:nth-child(odd) {
+  background-color: var(--primary_color);
+}
+.dashboardright_order_cont ul li:nth-child(even) {
+  background-color: var(--primary_color_dark);
+}
