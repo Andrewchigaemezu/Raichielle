@@ -1,8 +1,8 @@
 import style from "./Featuredbags.module.css";
 import Header3 from "../../utilities/Header3";
-import black_bag from "../../assets/img/black_bag.png";
-import brown_bag from "../../assets/img/brown_bag.png";
-import pink_bag from "../../assets/img/pink_bag.png";
+import black_bag from "../../assets/img/black_bag.jpeg";
+import brown_bag from "../../assets/img/brown_bag.jpeg";
+import pink_bag from "../../assets/img/pink_bag.jpeg";
 import Header4 from "../../utilities/Header4";
 function FeaturedBags() {
   return (

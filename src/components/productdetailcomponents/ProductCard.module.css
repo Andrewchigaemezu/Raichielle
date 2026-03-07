@@ -26,9 +26,11 @@
   width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 0.5rem;
 }
 .productcard_img_small {
-  width: 100%;
+  width: 95%;
+  border: 0.1rem solid var(--secondary_color_light);
 }
 
 .productcard_details {

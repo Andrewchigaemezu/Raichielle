@@ -1,10 +1,10 @@
 import style from "./Categories.module.css";
 import Header4 from "../../utilities/Header4";
 import Paragraph from "../../utilities/Paragraph";
-import streetwear_img from "../../assets/img/streetwear_img.png";
-import bags_img from "../../assets/img/bags_img.png";
-import coperatewears_img from "../../assets/img/coperatewear_img.png";
-import pants_img from "../../assets/img/pants_img.png";
+import streetwear_img from "../../assets/img/streetwear_img.jpeg";
+import bags_img from "../../assets/img/bags_img.jpeg";
+import coperatewears_img from "../../assets/img/coperatewear_img.jpeg";
+import pants_img from "../../assets/img/pants_img.jpeg";
 import { Link } from "react-router-dom";
 
 function Categories() {

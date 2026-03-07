@@ -1,6 +1,6 @@
 import style from "./DashboardCenter.module.css";
-import redbag from "../../assets/img/otherp_redbag.png";
-import redcoat from "../../assets/img/coat_img.png";
+import redbag from "../../assets/img/otherp_redbag.jpeg";
+import redcoat from "../../assets/img/coat_img.jpeg";
 import SmallText from "../../utilities/SmallText";
 function DashboardCenter() {
   return (

@@ -1,13 +1,13 @@
 import style from "./OtherProducts.module.css";
 import Header3 from "../../utilities/Header3";
-import otherp_blackbag from "../../assets/img/otherp_blackbag.png";
-import otherp_brownbag from "../../assets/img/otherp_brownbag.png";
-import otherp_capjacket from "../../assets/img/otherp_capjacket.png";
-import otherp_fitting from "../../assets/img/otherp_fitting.png";
-import otherp_fulldress from "../../assets/img/otherp_fulldress.png";
-import otherp_jacket from "../../assets/img/otherp_jacket.png";
-import otherp_pinkbag from "../../assets/img/otherp_pinkbag.png";
-import otherp_redbag from "../../assets/img/otherp_redbag.png";
+import otherp_blackbag from "../../assets/img/otherp_blackbag.jpeg";
+import otherp_brownbag from "../../assets/img/otherp_brownbag.jpeg";
+import otherp_capjacket from "../../assets/img/otherp_capjacket.jpeg";
+import otherp_fitting from "../../assets/img/otherp_fitting.jpeg";
+import otherp_fulldress from "../../assets/img/otherp_fulldress.jpeg";
+import otherp_jacket from "../../assets/img/otherp_jacket.jpeg";
+import otherp_pinkbag from "../../assets/img/otherp_pinkbag.jpeg";
+import otherp_redbag from "../../assets/img/otherp_redbag.jpeg";
 import { useEffect, useRef } from "react";
 function OtherProducts() {
   const firstContRef = useRef(null);

@@ -6,7 +6,7 @@ import ProductDisplay from "./productpagecomponents/ProductDisplay";
 import Products from "./productpagecomponents/Products";
 import jacket from "../assets/img/jacket.jpg";
 import purse from "../assets/img/purse.jpg";
-import hoodie from "../assets/img/hoodie.png";
+import hoodie from "../assets/img/hoodie.jpeg";
 import Header4 from "../utilities/Header4";
 import arrowdown from "../assets/icons/arrowdown.svg";
 import arrowup from "../assets/icons/arrowup.svg";

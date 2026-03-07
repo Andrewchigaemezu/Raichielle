@@ -1,9 +1,9 @@
 import style from "./Blog.module.css";
-import fulldress_img from "../../assets/img/fulldress_img.png";
+import fulldress_img from "../../assets/img/fulldress_img.jpeg";
 
-import man_on_street from "../../assets/img/man_on_street.png";
-import men_suit from "../../assets/img/men_suit.png";
-import coat_img from "../../assets/img/coat_img.png";
+import man_on_street from "../../assets/img/man_on_street.jpeg";
+import men_suit from "../../assets/img/men_suit.jpeg";
+import coat_img from "../../assets/img/coat_img.jpeg";
 import Paragraph from "../../utilities/Paragraph";
 function Blog() {
   return (

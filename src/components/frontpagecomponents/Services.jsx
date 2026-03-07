@@ -3,10 +3,10 @@ import style from "./Services.module.css";
 import Header4 from "../../utilities/Header4";
 import Header5 from "../../utilities/Header5";
 import Paragraph from "../../utilities/Paragraph";
-import measuring_img from "../../assets/img/measuring_img.png";
-import sewing_img from "../../assets/img/sewing_img.png";
-import pattern_img from "../../assets/img/pattern_img.png";
-import store_img from "../../assets/img/store_img.png";
+import measuring_img from "../../assets/img/measuring_img.jpeg";
+import sewing_img from "../../assets/img/sewing_img.jpeg";
+import pattern_img from "../../assets/img/pattern_img.jpeg";
+import store_img from "../../assets/img/store_img.jpeg";
 import SmallText from "../../utilities/SmallText";
 
 function Services() {
