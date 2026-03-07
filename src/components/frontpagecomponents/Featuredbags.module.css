@@ -2,6 +2,7 @@
   margin-top: 26.8rem;
   /* background-color: yellow; */
   color: var(--secondary_color_dark);
+  position: relative;
 }
 
 .featuredbags h4 {
@@ -14,7 +15,9 @@
   column-gap: 12.8rem;
   justify-items: center;
   margin-top: 6.8rem;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
 }
 
 .featuredbags_btn:link,
