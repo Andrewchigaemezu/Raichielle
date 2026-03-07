@@ -64,7 +64,7 @@ function Products({ props }) {
               Cart Item
             </button>
           )}
-          <a href="" className={style.purchase_btn} ref={buyBtnRef}>
+          <a href="#" className={style.purchase_btn} ref={buyBtnRef}>
             Buy Now
           </a>
         </div>
