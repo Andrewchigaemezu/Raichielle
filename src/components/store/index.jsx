@@ -40,7 +40,7 @@ const cartSlice = createSlice({
 });
 
 // Getting the cart state
-const selectCartItems = (state) => state.cart;
+const selectCartItems = (state) => state.cart.cart;
 
 // Calculating subtotal
 export const cartSubtotal = createSelector([selectCartItems], (items) => {
@@ -56,10 +56,21 @@ export const cartQuantTotal = createSelector([selectCartItems], (items) => {
   }, 0);
 });
 
+const menuInitialState = { isOpen: false };
+const menuModalSlice = createSlice({
+  name: "menuModal",
+  initialState: menuInitialState,
+  reducers: {
+    openCloseModal: (state) => {
+      state.isOpen = !state.isOpen;
+    },
+  },
+});
 const store = configureStore({
-  reducer: cartSlice.reducer,
+  reducer: { cart: cartSlice.reducer, modal: menuModalSlice.reducer },
 });
 
 export default store;
 
 export const cartActions = cartSlice.actions;
+export const menuModalActions = menuModalSlice.actions;

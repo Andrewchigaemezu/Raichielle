@@ -10,7 +10,7 @@ import { cartSubtotal, cartQuantTotal } from "../store/index";
 import big_cart from "../../assets/icons/big_cart.svg";
 
 function CartCard() {
-  const cart = useSelector((state) => state.cart);
+  const cart = useSelector((state) => state.cart.cart);
   const cartTotal = useSelector(cartSubtotal);
   const totalCartQuant = useSelector(cartQuantTotal);
   const dispatch = useDispatch();

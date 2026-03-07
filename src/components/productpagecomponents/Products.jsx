@@ -13,7 +13,7 @@ function Products({ props }) {
   const buyBtnRef = useRef(null);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const cart = useSelector((state) => state.cart);
+  const cart = useSelector((state) => state.cart.cart);
   const params = useParams();
   const productInCart = cart.some((product) => product.id === props.id);
   function navigateToProductHandler(e) {

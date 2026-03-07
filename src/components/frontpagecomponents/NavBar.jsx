@@ -6,12 +6,14 @@ import menu_icon from "../../assets/icons/menu_icon.svg";
 import cart_icon from "../../assets/icons/cart_icon.svg";
 import search_icon from "../../assets/icons/search_icon.svg";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { menuModalActions } from "../store";
 
 function NavBar() {
   const navigate = useNavigate();
-  const cart = useSelector((state) => state.cart);
+  const cart = useSelector((state) => state.cart.cart);
+  const dispatch = useDispatch();
   function navToCart() {
     navigate("/cart");
   }
@@ -31,12 +33,21 @@ function NavBar() {
             onClick={navToCart}
           />
           <img src={search_icon} alt="search icon" />
-          <img src={menu_icon} alt="menu icon" />
+          <img
+            src={menu_icon}
+            alt="menu icon"
+            onClick={() => dispatch(menuModalActions.openCloseModal())}
+          />
           <div className={style.cart_item_total} onClick={navToCart}>
             <p>{cart.length}</p>
           </div>
         </div>
-        <img src={menu_icon} alt="menu icon" className={style.mobile_menu} />
+        <img
+          src={menu_icon}
+          alt="menu icon"
+          className={style.mobile_menu}
+          onClick={() => dispatch(menuModalActions.openCloseModal())}
+        />
       </div>
     </nav>
   );
