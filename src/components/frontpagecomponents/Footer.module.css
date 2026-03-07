@@ -79,7 +79,7 @@
 }
 @media (max-width: 44em) {
   .footer_campaign_cont p:nth-child(2) {
-    padding: 0 10rem;
+    padding: 0 8rem;
   }
   .footer h1 {
     font-size: 6rem;
@@ -87,6 +87,9 @@
   }
 }
 @media (max-width: 37.5em) {
+  .footer_campaign_cont p:nth-child(2) {
+    padding: 0 6rem;
+  }
 }
 @media (max-width: 23.5em) {
 }
