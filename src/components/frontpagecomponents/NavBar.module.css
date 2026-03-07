@@ -44,16 +44,12 @@
 
 .cart_item_total {
   position: absolute;
-  /* padding: 2rem; */
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
   background-color: var(--primary_color_dark);
   color: var(--secondary_color);
-  /* text-align: center; */
   display: grid;
-  /* justify-content: center; */
-  /* align-content: center; */
   justify-items: center;
   align-items: center;
   font-size: 1.8rem;
@@ -89,7 +85,8 @@
   .mobile_menu {
     display: inline-block;
     justify-self: right;
-    width: 4rem;
+    width: 3.5rem;
+    margin-right: 1rem;
   }
 }
 @media (max-width: 37.5em) {
