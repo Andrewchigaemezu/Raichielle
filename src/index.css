@@ -30,6 +30,9 @@ html {
 @media (max-width: 59em) {
 }
 @media (max-width: 44em) {
+  html {
+    font-size: 60.5%;
+  }
 }
 @media (max-width: 23.5em) {
 }
